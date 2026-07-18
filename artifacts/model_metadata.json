@@ -1,0 +1,100 @@
+{
+  "model_version": "1.0.0-demo",
+  "random_seed": 20260711,
+  "customer_count": 1000,
+  "selected_k": 6,
+  "model_features": [
+    "avg_monthly_inflow_6m",
+    "salary_inflow_ratio",
+    "inflow_cv_6m",
+    "avg_balance_6m",
+    "min_balance_6m",
+    "avg_monthly_spend_6m",
+    "monthly_txn_count_6m",
+    "digital_txn_ratio",
+    "cash_withdrawal_ratio",
+    "discretionary_spend_ratio",
+    "travel_spend_ratio",
+    "investment_contribution_ratio",
+    "credit_card_utilisation",
+    "days_since_last_txn",
+    "monthly_app_logins_3m",
+    "products_held",
+    "overdraft_events_6m"
+  ],
+  "excluded_from_model": [
+    "customer_id",
+    "snapshot_date",
+    "age",
+    "region",
+    "relationship_months",
+    "essential_spend_ratio",
+    "education_spend_ratio",
+    "business_merchant_ratio",
+    "loan_balance",
+    "late_payment_events_12m"
+  ],
+  "candidate_evaluations": [
+    {
+      "k": 3,
+      "inertia": 7594.878448714846,
+      "silhouette_score": 0.42936192900643655
+    },
+    {
+      "k": 4,
+      "inertia": 5504.706287510918,
+      "silhouette_score": 0.4047223886866447
+    },
+    {
+      "k": 5,
+      "inertia": 4155.167059513246,
+      "silhouette_score": 0.41341205754446264
+    },
+    {
+      "k": 6,
+      "inertia": 3803.2969019435313,
+      "silhouette_score": 0.3973373101512829
+    },
+    {
+      "k": 7,
+      "inertia": 3621.9948713980784,
+      "silhouette_score": 0.3450422996701112
+    },
+    {
+      "k": 8,
+      "inertia": 3451.3730810315064,
+      "silhouette_score": 0.3038354183859346
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": 1,
+      "segment_name": "Affluent Investors"
+    },
+    {
+      "segment_id": 2,
+      "segment_name": "Emerging Digital Everyday"
+    },
+    {
+      "segment_id": 3,
+      "segment_name": "High Spend Credit Active"
+    },
+    {
+      "segment_id": 4,
+      "segment_name": "High Spend and Frequent Overdraft"
+    },
+    {
+      "segment_id": 5,
+      "segment_name": "Low Digital Engagement and Cash-Oriented"
+    },
+    {
+      "segment_id": 6,
+      "segment_name": "Stable Salary Builders"
+    }
+  ],
+  "limitations": [
+    "The data is synthetic and is not representative of any real bank population.",
+    "Assignment confidence is a distance-based demo score, not a calibrated probability.",
+    "The model does not infer occupation, wealth status, student status, or purchase intent."
+  ]
+}

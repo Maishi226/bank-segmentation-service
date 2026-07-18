@@ -1,0 +1,24 @@
+{
+  "customers": [
+    {
+      "customer_id": "NEW0001",
+      "avg_monthly_inflow_6m": 7200,
+      "salary_inflow_ratio": 0.84,
+      "inflow_cv_6m": 0.11,
+      "avg_balance_6m": 18500,
+      "min_balance_6m": 8200,
+      "avg_monthly_spend_6m": 3900,
+      "monthly_txn_count_6m": 62,
+      "digital_txn_ratio": 0.88,
+      "cash_withdrawal_ratio": 0.06,
+      "discretionary_spend_ratio": 0.27,
+      "travel_spend_ratio": 0.05,
+      "investment_contribution_ratio": 0.09,
+      "credit_card_utilisation": 0.22,
+      "days_since_last_txn": 2,
+      "monthly_app_logins_3m": 19,
+      "products_held": 4,
+      "overdraft_events_6m": 0
+    }
+  ]
+}

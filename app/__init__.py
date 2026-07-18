@@ -1,0 +1,1 @@
+"""Bank segmentation demo service."""
