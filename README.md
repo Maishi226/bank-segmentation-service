@@ -1,4 +1,9 @@
 # Bank Customer Segmentation Service
+## Companion Demo
+
+This service is used by the BNZ AI marketing hybrid demo:
+
+https://github.com/Maishi226/bnz-ai-marketing-hybrid
 
 This demo turns synthetic bank-owned customer behavior data into labeled customer records and exposes those labels through a FastAPI REST service. No survey, uploaded form, name, phone number, or identity document is required.
 
